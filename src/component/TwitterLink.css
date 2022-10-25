@@ -1,0 +1,23 @@
+.TwitterLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  margin: 0rem 8rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 420px) {
+  .TwitterLink {
+    margin: 0rem 1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .TwitterLink {
+    margin: 0 1rem;
+  }
+}

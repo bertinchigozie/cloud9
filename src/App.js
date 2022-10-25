@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import BackgroundCheck from "./component/BackgroundCheck";
+import DesignBook from "./component/DesignBook";
+import Footer from "./component/Footer";
+import IconSection from "./component/IconSection";
+import Profile from "./component/Profile";
+import PythonBooks from "./component/PythonBooks";
+import TwitterLink from "./component/TwitterLink";
+import ZuriBooks from "./component/ZuriBooks";
+import ZuriTeam from "./component/ZuriTeam";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-components">
+        <div>
+          <Profile />
+        </div>
+        <div>
+          <TwitterLink />
+        </div>
+        <div>
+          <ZuriTeam />
+        </div>
+        <div>
+          <ZuriBooks />
+        </div>
+        <div>
+          <PythonBooks />
+        </div>
+        <div>
+          <BackgroundCheck />
+        </div>
+        <div>
+          <DesignBook />
+        </div>
+        <div>
+          <IconSection />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

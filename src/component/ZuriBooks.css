@@ -1,0 +1,24 @@
+.ZuriBooks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  margin: 1rem 8rem;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 420px) {
+  .ZuriBooks {
+    margin: 1rem 1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .ZuriBooks {
+    margin: 1rem 1rem;
+  }
+}
