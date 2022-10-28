@@ -9,10 +9,14 @@ function PythonBooks() {
           id="book__python"
           rel="noreferrer"
           target="_blank"
-          href="https://training.zuri.team/python-for-beginners?ref_id"
+          href="https://books.zuri.team/python-for-beginners?ref_id=godzie"
         >
           Python Books
         </a>
+      </p>
+      <p className="subtext">
+        We are selling at a giveaway price. I am your best plug for the best
+        deals.
       </p>
     </div>
   );

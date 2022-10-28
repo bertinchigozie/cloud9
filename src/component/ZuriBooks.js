@@ -14,6 +14,9 @@ function ZuriBooks() {
           Zuri Books
         </a>
       </p>
+      <p className="subtext">
+        A book with all Designs and Coding ethics for your use.
+      </p>
     </div>
   );
 }

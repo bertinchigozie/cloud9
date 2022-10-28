@@ -5,6 +5,7 @@ import Footer from "./component/Footer";
 import IconSection from "./component/IconSection";
 import Profile from "./component/Profile";
 import PythonBooks from "./component/PythonBooks";
+import SlackUsername from "./component/SlackUsername";
 import TwitterLink from "./component/TwitterLink";
 import ZuriBooks from "./component/ZuriBooks";
 import ZuriTeam from "./component/ZuriTeam";
@@ -15,6 +16,9 @@ function App() {
       <div className="App-components">
         <div>
           <Profile />
+        </div>
+        <div>
+          <SlackUsername />
         </div>
         <div>
           <TwitterLink />
