@@ -2,7 +2,7 @@ import React from "react";
 import { TiArrowForwardOutline } from "react-icons/ti";
 import { TbDots } from "react-icons/tb";
 import "./Profile.css";
-import pic from "./img/profile.jpg";
+import pic from "../assets/img/profile.jpg";
 
 function Profile() {
   return (

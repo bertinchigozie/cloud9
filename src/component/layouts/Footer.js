@@ -1,6 +1,6 @@
 import React from "react";
-import zuriInternship from "./img/Zuri-Internship.png";
-import ingressive from "./img/ingressive.png";
+import zuriInternship from "../assets/img/Zuri_Internship.png";
+import ingressive from "../assets/img/ingressive.png";
 import "./Footer.css";
 
 function Footer() {

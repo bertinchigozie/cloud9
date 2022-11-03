@@ -1,14 +1,15 @@
 import "./App.css";
-import BackgroundCheck from "./component/BackgroundCheck";
-import DesignBook from "./component/DesignBook";
-import Footer from "./component/Footer";
-import IconSection from "./component/IconSection";
-import Profile from "./component/Profile";
-import PythonBooks from "./component/PythonBooks";
-import SlackUsername from "./component/SlackUsername";
-import TwitterLink from "./component/TwitterLink";
-import ZuriBooks from "./component/ZuriBooks";
-import ZuriTeam from "./component/ZuriTeam";
+import BackgroundCheck from "./component/layouts/BackgroundCheck";
+import ContactButton from "./component/layouts/ContactButton";
+import DesignBook from "./component/layouts/DesignBook";
+import Footer from "./component/layouts/Footer";
+import IconSection from "./component/layouts/IconSection";
+import Profile from "./component/layouts/Profile";
+import PythonBooks from "./component/layouts/PythonBooks";
+import SlackUsername from "./component/layouts/SlackUsername";
+import TwitterLink from "./component/layouts/TwitterLink";
+import ZuriBooks from "./component/layouts/ZuriBooks";
+import ZuriTeam from "./component/layouts/ZuriTeam";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         </div>
         <div>
           <DesignBook />
+        </div>
+        <div>
+          <ContactButton />
         </div>
         <div>
           <IconSection />

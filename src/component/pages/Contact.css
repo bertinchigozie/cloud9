@@ -1,0 +1,103 @@
+.ContactBox {
+  /* background-color: brown; */
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.Contact-Contents {
+  width: 100%;
+  margin: 0 2rem 0 0;
+}
+.Contact-Header {
+  display: grid;
+  gap: 0.4rem;
+}
+.Heading-Box {
+  font-size: 1.8rem;
+}
+.Form {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.NamesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.Names {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Name {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 1.2px 1.2px 1.2px 1.2px rgba(111, 110, 110, 0.379);
+}
+.EmailField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.Email {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 1.2px 1.2px 1.2px 1.2px rgba(111, 110, 110, 0.379);
+}
+
+.MessageField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.Message {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  box-shadow: 1.2px 1.2px 1.2px 1.2px rgba(111, 110, 110, 0.379);
+}
+.CheckboxField {
+  display: flex;
+  gap: 0.4rem;
+}
+.BtnField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.Btn {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #228be6;
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 420px) {
+  .Form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 1rem;
+  }
+  .NamesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .Contact-Contents {
+    margin: 1rem 1rem;
+  }
+}

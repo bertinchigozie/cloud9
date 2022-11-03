@@ -1,6 +1,6 @@
 import React from "react";
-import slackLogo from "./img/slack.png";
-import githubLogo from "./img/github.png";
+import slackLogo from "../assets/img/slack.png";
+import githubLogo from "../assets/img/github.png";
 import "./IconSection.css";
 
 function IconSection() {
