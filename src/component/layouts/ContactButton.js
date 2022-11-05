@@ -5,7 +5,7 @@ function ContactButton() {
   return (
     <div className="ContactButton">
       <p>
-        <a id="contact" rel="noreferrer" href="/contact">
+        <a id="contact" rel="noreferrer" target="_blank" href="/contact">
           Contact Me
         </a>
       </p>
