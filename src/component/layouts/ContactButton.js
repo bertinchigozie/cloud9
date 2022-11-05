@@ -6,10 +6,8 @@ function ContactButton() {
   return (
     <div className="ContactButton">
       <p>
-        <Link>
-          <a id="contact" rel="noreferrer" target="_blank" href="/contact">
-            Contact Me
-          </a>
+        <Link id="contact" to={"/contact"}>
+          Contact Me
         </Link>
       </p>
     </div>

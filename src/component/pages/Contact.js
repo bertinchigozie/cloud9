@@ -17,10 +17,10 @@ function Contact() {
           </div>
         </div>
         <div className="Form-Section">
-          <form className="Form">
+          <div className="Form">
             <div className="NamesGrid">
               <div className="Names">
-                <label for="first_name">First Name</label>
+                <label htmlFor="first_name">First Name</label>
                 <input
                   className="Name"
                   type="text"
@@ -29,7 +29,7 @@ function Contact() {
                 />
               </div>
               <div className="Names">
-                <label for="last_name">Last Name</label>
+                <label htmlFor="last_name">Last Name</label>
                 <input
                   className="Name"
                   type="text"
@@ -39,7 +39,7 @@ function Contact() {
               </div>
             </div>
             <div className="EmailField">
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input
                 className="Email"
                 type="email"
@@ -48,7 +48,7 @@ function Contact() {
               />
             </div>
             <div className="MessageField">
-              <label for="message">Message</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 className="Message"
                 name="message"
@@ -58,7 +58,7 @@ function Contact() {
             </div>
             <div className="CheckboxField">
               <input className="Checkbox" type="checkbox" id="checkbox" />
-              <label for="checkbox">
+              <label htmlFor="checkbox">
                 You agree to providing your data to Godzie who may contact you
               </label>
             </div>
@@ -70,7 +70,7 @@ function Contact() {
                 value="Send Message"
               />
             </div>
-          </form>
+          </div>
         </div>
       </div>
       <Footer />
