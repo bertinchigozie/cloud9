@@ -66,7 +66,7 @@ function Contact() {
               <input
                 className="Btn"
                 type="button"
-                id="btn_submit"
+                id="btn__submit"
                 value="Send Message"
               />
             </div>
